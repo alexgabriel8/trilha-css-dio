@@ -1,0 +1,79 @@
+* {
+    font-family: "Raleway", sans-serif;
+}
+
+body {
+    background-color: #000;
+}
+
+p, span {
+    color: #FFF;
+}
+
+.banner {
+    padding: 50px 10px 10px 10px;
+    background-image: 
+        url("../../assets/images/banner.png"),
+        linear-gradient(rgba(0, 0, 0, .6), rgba(49, 168, 221, .2), rgba(0, 0, 0, .6));
+    object-fit: cover;
+    text-align: center;
+    height: 600px;
+    border-bottom: 1px solid #33A8DB80;
+    font-size: 1.25rem;
+}
+
+.banner .logo {
+    margin: auto;
+    width: 260px;
+    height: 260px;
+}
+
+.banner .logo img {
+    background-color: #00000050;
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+    object-fit: scale-down;
+}
+
+.banner h1 {
+    background-clip: text;
+    color: transparent;
+    background-image: linear-gradient(180deg, #33A8DB 0%, #1472B7 100%);
+    text-transform: uppercase;
+
+    margin: 15px 0;
+    font-size: 2.5rem;
+}
+
+.banner p {
+    max-width: 500px;
+    margin: auto;
+    font-size: 1.25rem;
+}
+
+.banner button {
+    margin-top: 25px;
+    width: 325px;
+    height: 60px;
+
+    border-image: linear-gradient(180deg, #3BA1CD 0%, #1572B7 100%);
+    border-image-slice: 1;
+    color: #33A8DB;
+    background-color: transparent;
+
+    font-weight: 900;
+    font-size: 1rem;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+
+    cursor: pointer;
+
+    transition: all 0.3s ease;
+}
+
+.banner button:hover {
+    scale: 1.1;
+    box-shadow: 0 0 20px #33A8DB;
+    background-color: #33A8DB20;
+}

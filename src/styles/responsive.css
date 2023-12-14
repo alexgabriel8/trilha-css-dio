@@ -11,4 +11,14 @@
         width: 100%;
         max-width: 325px;
     }
+
+    #course-content h2 {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 561px) {
+    .modules-list .module {
+        width: 100%;
+    }
 }

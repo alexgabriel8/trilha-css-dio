@@ -10,6 +10,13 @@ p, span {
     color: #FFF;
 }
 
+.banner,
+#course-content,
+#transform-world,
+#professional-challenges {
+    border-bottom: 1px solid #33A8DB80;
+}
+
 .banner {
     padding: 50px 10px 10px 10px;
     background-image: 
@@ -18,7 +25,6 @@ p, span {
     object-fit: cover;
     text-align: center;
     height: 600px;
-    border-bottom: 1px solid #33A8DB80;
     font-size: 1.25rem;
 }
 
@@ -82,7 +88,6 @@ p, span {
     background-color: #000;
     padding: 100px 10px;
     text-align: center;
-    border-bottom: 1px solid #33A8DB80;
 }
 
 #course-content h2 {
@@ -122,4 +127,27 @@ p, span {
 
 .modules-list .module span {
     color: #33A8DB;
+}
+
+#transform-world {
+    height: 360px;
+    background-image: url("../../assets/images/woman-code.png");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+#transform-world p {
+    max-width: 250px;
+    color: #FFF;
+
+    font-size: 2.5rem;
+    text-transform: lowercase;
+    text-shadow: 3px 2px #33A8DB;
+    font-weight: 900;
+
+    position: relative;
+    top: 50%;
+    left: 10%;
+    transform: translateY(-50%);
 }

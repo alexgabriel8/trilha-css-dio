@@ -15,6 +15,10 @@
     #course-content h2 {
         font-size: 1.5rem;
     }
+
+    #professional-challenges h2 {
+        font-size: 1.5rem;
+    }
 }
 
 @media (max-width: 561px) {
